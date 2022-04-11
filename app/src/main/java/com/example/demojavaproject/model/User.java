@@ -1,5 +1,6 @@
 package com.example.demojavaproject.model;
 
+
 import java.io.Serializable;
 
 public class User implements Serializable {
@@ -12,11 +13,11 @@ public class User implements Serializable {
         this.name = name;
     }
 
+
     @Override
     public String toString() {
         return "User " +
                 " age=" + age +
-                ", name='" + name + '\'' +
-                '}';
+                ", name='" + name + '\'';
     }
 }
